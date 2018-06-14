@@ -6,7 +6,7 @@ public class Abstractions {
 	private static int num = 10;   //No other class can change this value
 	private String str = "Test";
 	
-	
+	//Eclipse --> right click --> source --> Generate Getters and Setters...
 	public static int getNum() {
 		return num;
 	}
