@@ -6,8 +6,8 @@ public class day7 {
 	 * Java OOP
 	 * 
 	 * 	1. Abstractions
-	 * 	2. Encapulastions
+	 * 	2. Encapsulation
 	 * 	3. Inheritance
-	 *  4. Polymorophism
+	 *  4. Polymorphism
 	 */
 }
