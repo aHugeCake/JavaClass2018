@@ -5,7 +5,19 @@ public class AccessModifier {
 	/*
 	 * AccessModifier is used to control access 
 	 * 
-	 * Understanding all java access modifiers: http://www.javatpoint.com
+	 * --------------------------------------------------------
+	 * Access   | within | within  | outside package | outside 
+	 * Modifier | class  | package | subclass only   | package
+	 * --------------------------------------------------------
+	 * Private  |   Y    |    N    |        N        |    N
+	 * --------------------------------------------------------
+	 * Default  |   Y    |    Y    |        N        |    N
+	 * --------------------------------------------------------
+	 * Protected|   Y    |    Y    |        Y        |    N
+	 * --------------------------------------------------------
+	 * Public   |   Y    |    Y    |        Y        |    Y
+	 * --------------------------------------------------------
+	 * 
 	 */
 	
 	//valuables should be private

@@ -2,7 +2,7 @@ package com.javasession.week_2.day2_oop;
 
 import com.javasession.week_2.day3_oop.AccessModifier;
 
-//Afer extend Class AccessModifier, AccessModifierSampleInAnotherPackage is a subclass of AccessModier
+//After extend Class AccessModifier, AccessModifierSampleInAnotherPackage is a subclass of AccessModier
 public class AccessModifierSampleInAnotherPackage extends AccessModifier{
 
 	

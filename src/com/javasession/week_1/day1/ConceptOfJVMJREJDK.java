@@ -1,0 +1,33 @@
+package com.javasession.week_1.day1;
+
+public class ConceptOfJVMJREJDK {
+
+	/*
+	 * JVM: Java Virtual Machine
+	 * 		an abstract machine
+	 * 		provides runtime environment in which java bytecode can be executed
+	 * 		a specification
+	 * 		task: loads code, verifies code, executes code, provides runtime environment	
+	 * 		3 notions of JVM: specification, implementation, instance	
+	 * 
+	 * 
+	 * 
+	 * JRE: Java Runtime Environment
+	 * 		JVM + library classes
+	 * 		the implementation of JVM
+	 * 		provides runtime environment
+	 * 		physically exists
+	 * 
+	 * 
+	 * 
+	 * JDK: Java Development Kit
+	 * 		JRE + development tools
+	 * 		physically exists
+	 * 
+	 * 
+	 * 
+	 * JVM, JRE and JDK are platform dependent (configuration of each OS differs)
+	 * Java is platform independent
+	 */
+	
+}
