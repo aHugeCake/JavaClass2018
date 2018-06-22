@@ -1,0 +1,14 @@
+Run a java file:
+javac filename.java
+java filename
+
+eg.(src/)
+javac com/javasession/week_3/day2_file_io/CharCastSample.java
+java -cp . com/javasession/week_3/day2_file_io/CharCastSample
+
+
+Hide/Show a file:
+chflags hidden path(drag and drop) --> make file hidden
+chflags nohidden path(drag and drop) --> make file nohidden	
+(view/hide hidden file: Shift + Command + . )
+

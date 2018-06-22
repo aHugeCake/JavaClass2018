@@ -1,0 +1,44 @@
+Types of List in Java
+
+
+	1. ArrayList 
+	2. LinkedList 
+	3. Vector
+
+they all implement List interface. They are very similar to use. Their main difference is their implementation which causes different performance for different operations.
+
+	ArrayList is implemented as a re-sizable array. As more elements are added to ArrayList, its size is increased dynamically. It's elements can be accessed directly by using the get and set methods, since ArrayList is essentially an array.
+
+	LinkedList is implemented as a double linked list. Its performance on add and remove is better than Array list, but worse on get and set methods.
+
+	Vector is similar with ArrayList, but it is synchronized.
+
+		ArrayList is a better choice if your program is thread-safe. Vector and ArrayList require more space as more elements are added. 
+		Vector each time doubles its array size, while ArrayList grow 50% of its size each time. 
+		LinkedList, however, also implements Queue interface which adds more methods than ArrayList and Vector, such as offer(), peek(), poll(), etc.
+
+	
+	Note: The default initial capacity of an ArrayList is pretty small. 
+		  It is a good habit to construct the ArrayList with a higher initial capacity. 
+		  This can avoid the resizing cost.
+		  
+		  
+		  
+		  Choose the right Java Map interface
+				HashMap – use this implementation if the order of items while iterating is not important to you. HashMap has better performance compared to TreeMap and LinkedHashMap
+				
+				TreeMap – is ordered and sorted but slower compared to HashMap. TreeMap has ascending order of keys, according to its Comparator
+				
+				LinkedHashMap – it orders items by key during insertion
+
+			Choose the right Java List interface
+				ArrayList – items are ordered during insertion. Search operations on ArrayLists is faster compared to search operations on LinkedLists
+	
+				LinkedList – has fast adding to the start of the list, and fast deletion from the interior via iteration
+
+			Choose the right Java Set interface
+				HashSet – use this implementation if the order of items while iterating is not important to you. HashSet has better performance compared to TreeSet and LinkedHashSet
+	
+				LinkedHashSet – it orders items during insertion
+	
+TreeSet – has ascending order of keys, according to its Comparator

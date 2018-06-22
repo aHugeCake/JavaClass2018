@@ -1,0 +1,36 @@
+Maps in Java
+
+1. HashMap
+2. TreeMap
+3. LinkedHashMap
+3. Hashtable 
+
+	HashMap doesn’t maintain any order.
+		-Also HashMap will allow duplicate keys but only last key will print the value.
+	TreeMap sort the entries in ascending order of keys.
+	LinkedHashMap maintains the insertion order.
+
+
+ArrayList vs HashMap in Java
+	1) Implementation: 
+		ArrayList implements List Interface while HashMap is an implementation of Map interface. 
+		List and Map are two entirely different collection interfaces.
+	
+	2) Memory consumption: 
+		ArrayList stores the element’s value alone and internally maintains the indexes for each element.
+	
+	3) Order: 
+		ArrayList maintains the insertion order while HashMap doesn’t. 
+		Which means ArrayList returns the list items in the same order in which they got inserted into the list. On the other side HashMap doesn’t maintain any order, the returned key-values pairs are not sorted in any kind of order.
+	
+	4) Duplicates: 
+		ArrayList allows duplicate elements but 
+		HashMap doesn’t allow duplicate keys (It does allow duplicate values).
+	
+	5) Nulls: 
+		ArrayList can have any number of null elements. 
+		HashMap allows one null key and any number of null values.
+	
+	6) get method: 
+		In ArrayList we can get the element by specifying the index of it. 
+In HashMap the elements is being fetched by specifying the corresponding key.

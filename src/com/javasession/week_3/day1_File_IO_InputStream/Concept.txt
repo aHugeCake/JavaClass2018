@@ -1,0 +1,46 @@
+	/*
+	 * Java I/O
+	 * 
+	 * uses JRE to run to code
+	 * it's part of Java-FX framework
+	 * 
+	 * Input: for read and copy
+	 * Output: for write and create
+	 * 
+	 * 
+	 * Stream
+	 * Stream are unidirectional
+	 * It's means any given stream is either input(Read) or Write to it stream (Can only do one thing only)
+	 * 
+	 * There are two stream types:
+	 * 	- Byte Stream: it's provide binary version of data input output  (audio, image)
+	 * 	- Test Stream: it's provide test version of data input output  (documents)
+	 * 
+	 * Byte: 
+	 * 1. InputStream   
+	 * 	- ByteArrayInputStream
+	 * 	- PipedInputStream
+	 * 	- FileInputStream
+	 * 
+	 * 2. OutputStream	 
+	 * 	- ByteArrayOutputStream
+	 * 	- PipedOutputStream
+	 * 	- FileOutputStream
+	 * 
+	 * Text:
+	 * 1. Reader
+	 * 2. Writer
+	 * 
+	 * 1. Reader
+	 * 	- CharArrayReader
+	 * 	- StringReader
+	 * 	- PipedReader
+	 * 	- InputStreamReader -- FileReader
+	 * 
+	 * 2. Writer
+	 * 	- CharArrayWriter
+	 * 	- StringWriter
+	 * 	- PipedWriter
+	 * 	- OutputStreamWriter -- FileWriter
+	 * 
+	 */
