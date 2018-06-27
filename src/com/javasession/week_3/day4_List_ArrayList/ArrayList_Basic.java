@@ -16,6 +16,12 @@ public class ArrayList_Basic {
 		// ArrayList is not an interface
 		// List<> vname = new ArrayList<>();
 		// ArrayList<Integer> vname = new ArrayList<>()
+		
+		/*
+		 * Advantage of array
+		 * 	 Don't want anybody to add anything
+		 * 	 We cannot limit the size of ArrayList
+		 */
 
 		List<String> st = new ArrayList<>();
 		System.out.println(st.size());
@@ -28,7 +34,7 @@ public class ArrayList_Basic {
 		System.out.println(st.size());
 		System.out.println(st);
 
-		// we can specify the index'
+		// we can specify the index
 		// add "Test" in the middle of "AA" and "BB"
 		st.add(1, "Test");
 

@@ -1,0 +1,7 @@
+Lambda
+	|---> Exception
+	|---> Method Reference
+	|---> Closure
+	|---> Stream API
+	|---> Foreach Loop
+			|---> Lambda

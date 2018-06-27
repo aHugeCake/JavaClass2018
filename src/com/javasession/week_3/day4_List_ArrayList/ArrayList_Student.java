@@ -16,7 +16,8 @@ public class ArrayList_Student {
 	private int stuAge;
 	
 	public ArrayList_Student(String stuName, int rollNo, int stuAge) {
-		super();
+		super();		// this class is parent class
+					// It's ok to delete super() in constructor
 		this.stuName = stuName;
 		this.rollNo = rollNo;
 		this.stuAge = stuAge;

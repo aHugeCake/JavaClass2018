@@ -9,7 +9,17 @@ public class SingleLinkedList {
 		linkedList();
 	}
 	
-	//single linked list
+	/*
+	 * LinkedList does not preserve the order
+	 * 		-> guarantee on procession, much faster than ArrayList
+	 */
+
+	/*
+	 * Single LinkedList
+	 * Every linked list has a head and a tail and references a number which maps refernece of the next index
+	 * Double LinkedList --> next node and previous node
+	 * This sample is Single Linkedlist
+	 */
 	public static void linkedList() {
 		LinkedList<String> link = new LinkedList<>();
 		
@@ -39,12 +49,15 @@ public class SingleLinkedList {
 		arrList.add("San Antonio");
 		arrList.add("Dallas");
 		
+		//addAll ---> add another list to another list
+		//		 ---> add multiple lists to one list
 		link.addAll(arrList);
 		
 		System.out.println("After Adding ArrayList: " + link);
 		
 		System.out.println("Index for NewYork City: " + link.indexOf("New York"));
 		
+		//clear --> empty the entire list, remove all the elements of the list
 		link.clear();
 		System.out.println("Clear all list: " + link);
 		

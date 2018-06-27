@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.Vector;
 
 public class AddListToVectorSample {
+	/*
+	 * Vector is very security, but very heavy
+	 * Advantage:
+	 * 		make the process safe --> threads
+	 */
 
 	//How to add One list to another list
 	

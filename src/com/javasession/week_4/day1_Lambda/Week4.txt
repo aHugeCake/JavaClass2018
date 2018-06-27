@@ -1,0 +1,8 @@
+Week 4
+
+1. Lambda Expression
+2. Concurrency and Multi-threading
+3. Java generics class and methods
+4. Java Design Patterns: Structural, Creational and Behavioral
+5. Java JDBC class and connections to database
+6. Java EE(Enterprise) framework = Jax-RS and API

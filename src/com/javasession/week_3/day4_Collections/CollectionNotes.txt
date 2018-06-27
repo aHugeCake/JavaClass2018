@@ -1,0 +1,17 @@
+Interface forces to implement methods
+
+GET		= Reading
+POST		= Create/Write/Insert
+PUT		= Update
+DELETE	= Deleter/Remove
+
+Collections <-- Java offers default space. When add elements, a more space of same size will increment.
+
+Default size (elements)
+Vector - 10, 
+Arraylist - 10, origin is 0 and changes to 10 after add the element
+Hashtable - 11, 
+Hashmap - 16, origin is 0
+Hashset - 16  origin is 0
+
+new capacity=(currentCapacity+3/2)+1 
