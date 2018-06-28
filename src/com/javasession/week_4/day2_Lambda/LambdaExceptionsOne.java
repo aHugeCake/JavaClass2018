@@ -1,4 +1,4 @@
-package com.javasession.week_4.day2_Lambda_Exceptions;
+package com.javasession.week_4.day2_Lambda;
 
 import java.util.function.BiConsumer;
 

@@ -7,11 +7,15 @@ import java.util.concurrent.TimeUnit;
 public class MultiThreadExecutor {
 
 	public static void main(String[] args) {
+		//Main thread
 		System.out.println("Inside: " + Thread.currentThread().getName());
 		
+		//ExecutorService causes a lot of memory
 		System.out.println("Creating Executor Service with a thread poole of Size 2");
 		ExecutorService executorService = Executors.newFixedThreadPool(2);
 		
+		
+		//ExecutorService starts first two thread because its size is 2
 		Runnable task1 = () -> {
 			System.out.println("Executing Task1 inside: " + Thread.currentThread().getName());
 			
@@ -34,7 +38,9 @@ public class MultiThreadExecutor {
 				throw new IllegalStateException(e);
 			}
 		};
-
+		
+		//Because the size is 2, this thread is blocked before one the threads in the pool finishes and die.
+		//Once one of the 2 threads in pool dies, this thread will be picked to start
 		Runnable task3 = () -> {
 			System.out.println("Executing Task3 inside: " + Thread.currentThread().getName());
 			
@@ -52,6 +58,7 @@ public class MultiThreadExecutor {
 		executorService.submit(task2);
 		executorService.submit(task3);	//The pool size is 2-thread, this one isn't managed in the pool
 		
+		//shut down the whole session
 		executorService.shutdown();
 
 		

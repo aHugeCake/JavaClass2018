@@ -1,0 +1,15 @@
+//Runnable cannot return anything, but callable can return something
+Callable<String> callable = new Callable<String>(){
+	@Override
+	public String call() throws Exception{
+		//Persorm some computation
+		Thread.sleep(2000);
+		return "Return some result";
+	}
+}
+
+//We need a wrapperclass to throw exception
+Callable<String> callable = () -> {
+	Thread.sleep(2000);
+	return "Return some result"
+}

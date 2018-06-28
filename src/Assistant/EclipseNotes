@@ -30,6 +30,12 @@ Optimize (fix errors):
 	
 	
 	
+Clear the Console:
+	* because there are some cashing in the cache
+	Step 1: Console --> Right click --> Terminate/Disconnect All
+	Step 2: Console --> Right click --> Clear
+	
+	
 WordWrap:
 	<workspace>\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs
 add the settings: wordwrap.enabled=true
